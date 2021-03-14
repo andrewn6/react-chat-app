@@ -44,4 +44,3 @@ exports.deleteOneConversation = query => ConversationModel
 
 exports.findOneConversationAndDelete = query => ConversationModel 
   .findOneAndDelete(query);
-

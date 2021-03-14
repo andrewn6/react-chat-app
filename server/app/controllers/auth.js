@@ -29,6 +29,7 @@ exports.postSignUp = async (req, res) => {
         success: false,
         errors
       });
+
   } else {
     try {
       const result = await addUser(Object.assign({}, body, {
@@ -56,6 +57,13 @@ exports.postSignUp = async (req, res) => {
         .status(200)
         .json({
           success: true,
+          errors: {}
+        });
+    } else {
+      res
+        .status(500)
+        .json({
+          success: false,
           errors: {}
         });
     }
