@@ -23,7 +23,7 @@
 		"CONVERSATION": "/secured/conversation"
 	},
 	"EXPRESS_VALIDATION_MESSAGES": {
-		"NICKNAME_LENGHT_BETWEEN_2_AND_12": "The Nickname must have between 2 and 12 characters",
+		"NICKNAME_LENGHT_BETWEEN_3_AND_12": "The Nickname must have between 3 and 12 characters",
 		"PASSWORD_LENGHT_BETWEEN_5_AND_12": "The Password must have between 5 and 12 characters",
 		"THIS_NICKNAME_IS_ALREADY_TAKEN": "This Nickname is already taken",
 		"THIS_NICKNAME_IS_ALREADY_ADDED": "This Nickname is already added",
