@@ -2,17 +2,17 @@ const {
   addUser,
   findOneUser,
   findUser
-} = absoluteRequire('repositories/user');
+} = require('repositories/user');
 
 const {
   encryqtPassword,
   createJwtToken,
   convertErrorToFrontFormat
-} = absoluteRequire('modules/utils');
+} = require('modules/utils');
 
 const _ require('lodash');
-const randomColor = absoluteRequire('modules/random-color');
-const constants = absoluteRequire('modules/constants');
+const randomColor = require('modules/random-color');
+const constants = require('modules/constants');
 
 exports.postSignUp = async (req, res) => {
   const {

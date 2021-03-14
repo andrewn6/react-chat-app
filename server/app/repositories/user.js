@@ -1,10 +1,10 @@
 const {
 	UserModel
-} = absoluteRequire('models/user');
+} = require('models/user');
 
 const {
 	encryptPassword
-} = absoluteRequire('modules/utils');
+} = require('modules/utils');
 
 exports.addUser = (model) => {
 	const user = new UserModel({

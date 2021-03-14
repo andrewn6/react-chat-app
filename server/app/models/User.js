@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const {
 	ContactSchema
-} = absoluteRequire('models/contact');
+} = require('models/contact');
 
 const {
   Schema,
