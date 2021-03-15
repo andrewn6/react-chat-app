@@ -17,4 +17,7 @@ npm install
 npm run dev
 ```
 
+I have built this with NextJS, React, Express and of course Socket.IO.
+
 # Preview
+
