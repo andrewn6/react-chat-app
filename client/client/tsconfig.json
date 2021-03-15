@@ -19,5 +19,5 @@
     }
   },
   "exclude": ["node_modules"],
- "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"] 
+ "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.jsx", "pages/index.jsx", "components/index.js", "components/button/Button.jsx"] 
 }

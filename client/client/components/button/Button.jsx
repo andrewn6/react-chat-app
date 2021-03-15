@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react'
 
-import { Loading } from 'components/loading/Loading';
+import { Loading } from '../loading/Loading';
 import classNames from 'classnames';
 
 export default class Button extends Component {
