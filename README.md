@@ -7,8 +7,6 @@ First off, Create an account for mongodb.com as you need your own cluster/databa
 
 Before running make sure in /server/configs you replace your mongo credentials with your own.
 
-
-
 ```
 cd server
 ```
@@ -18,3 +16,5 @@ npm install
 ```
 npm run dev
 ```
+
+# Preview
