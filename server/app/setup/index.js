@@ -1,4 +1,4 @@
-const setupServer = require('setup/server');
+const setupServer = require('server/index');
 const setupMongoose = require('setup/mongoose');
 
 module.exports = (app) => {

@@ -1,7 +1,7 @@
 // eslint-disable-next-line
-global.absoluteRequire = name => require(`${__dirname}/app/${name}`
+global.absoluteRequire = name => require(`${__dirname}/app/${name}`);
 
-const express = rqeuire('express');
+const express = require('express');
 const setupApp = absoluteRequire('setup');
 const app = express();
 
