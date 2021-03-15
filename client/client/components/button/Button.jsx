@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react'
 
-import { LoadingComponent } from 'shared/components';
+import { Loading } from 'components/loading/Loading';
 
 export default class Button extends Component {
   render () {
@@ -51,7 +51,7 @@ export default class Button extends Component {
 			>
 				{
 						isFetching && !disabled ? (
-							<LoadingComponent
+							<Loading
 								type="spinner"
 							/>
 						) : text
