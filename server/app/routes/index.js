@@ -1,9 +1,9 @@
-const authRoute = require('routes/auth');
-const contactRoute = require('routes/contact');
-const messageRoute = require('routes/message');
-const defaultRoute = require('routes/default');
-const conversationRoute = require('routes/conversation');
-const jwtMiddleware = require('middlewares/jwt');
+const authRoute = require('../routes/auth');
+const contactRoute = require('../routes/contact');
+const messageRoute = require('../routes/auth');
+const defaultRoute = require('../routes/default');
+const conversationRoute = require('../routes/conversation');
+const jwtMiddleware = require('../middlewares/jwt');
 
 module.exports = (app) => {
   app.use('/');

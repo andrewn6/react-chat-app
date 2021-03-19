@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const bluebird = require('bluebird');
-const constants = require('modules/constants');
+const constants = require('../../modules/constants');
 
 module.exports = () => {
   const URI = constants.MONGOOSE.URL + constants.MONGOOSE.DB;

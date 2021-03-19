@@ -1,8 +1,9 @@
 const {
 	findOneUser
-} = absoluteRequire('repositories/user');
+} = require('../../repositories/user')
 
-const http = require('http');const helmet = require('helmet');
+const http = require('http');
+const helmet = require('helmet');
 const compression = require('compression');
 const cors = require('cors');
 const socketIO = require('socket.io');
@@ -10,8 +11,8 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
 const expressValidator = require('express-validator');
-const constants = absoluteRequire('modules/constants');
-const expressRoutes = absoluteRequire('routes');
+const constants = requiree('../../modules/constants');
+const expressRoutes = require('routes');
 
 modules.exports = (app) => {
   const server = http.createServer(app);

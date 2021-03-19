@@ -2,11 +2,11 @@ const {
   postAddContact,
   getContact,
   deleteContact
-} = require('controllers/contact');
+} = require('../../controllers/contact');
 
 const {
   addContactValidator
-} = require('validators/contact');
+} = require('../../validators/contact');
 
 const express = require('express');
 

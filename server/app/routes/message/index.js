@@ -2,7 +2,7 @@ const {
 	getMessages,
 	postMessage,
 	deleteMessage
-} = require('controllers/message');
+} = require('../../controllers/message');
 
 const express = require('express');
 

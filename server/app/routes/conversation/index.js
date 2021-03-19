@@ -2,7 +2,7 @@ const {
   getConversations,
   updateConversation,
   deleteConversation
-} = require('controllers/conversation');
+} = require('../../controllers/conversation');
 
 const express = require ('express');
 
