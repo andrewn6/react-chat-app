@@ -2,11 +2,11 @@ const {
   findUser,
   findOneUser,
   findOneUserByIdAndUpdate
-} = require('repositories/user');
+} = require('../repositories/user');
 
 const {
   convertErrorToFrontFormat
-} = require('modules/utils');
+} = require('../modules/utils');
 
 const _ = require('lodash');
 

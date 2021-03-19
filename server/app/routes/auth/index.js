@@ -2,7 +2,7 @@ const {
   postSignUp,
   postSignIn,
   getVerifyNickname
-} = require('controllers/auth');
+} = require('../co');
 
 const { signupValidator } = require('validators/auth');
 

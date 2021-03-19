@@ -1,9 +1,9 @@
 const {
 	findOneUser
-} = absoluteRequire('repositories/user');
+} = require('../repositories/user');
 
 const jwt = require('jsonwebtoken');
-const constants = absoluteRequire('modules/constants');
+const constants = absoluteRequire('../modules/constants');
 
 module.exports = (req, res, next) => {
   const token = (

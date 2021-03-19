@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 const jwt = require('jsonwebtoken');
 const _ = require('lodash');
-const constants = require('modules/constants');
+const constants = require('../modules/constants');
 
 exports.encryptPassword = password => crypto 
   .createHmac(constants.CRYPTO.HASH, constants.CRYPTO.SECRET)

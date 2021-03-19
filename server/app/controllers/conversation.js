@@ -3,11 +3,11 @@ const {
   findOneConversationAndUpdate,
   findOneConversationAndDelete,
   getConversation
-} = require('repositories/conversation');
+} = require('../repositories/conversation');
 
 const {
   deleteMessages
-} = require('repositories/message');
+} = require('../repositories/message');
 
 const _ = require('lodash');
 

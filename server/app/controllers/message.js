@@ -1,12 +1,12 @@
 const {
   addMessage,
   deleteMessageById
-} = require('repositories/message');
+} = require('../repositories/message');
 
 const {
   findOneConversationAndUpdate,
   getConversation
-} = require('repositories/conversation');
+} = require('../repositories/conversation');
 
 // parse dates
 const moment = require('moment');
